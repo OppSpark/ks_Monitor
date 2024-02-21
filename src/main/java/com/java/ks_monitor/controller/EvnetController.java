@@ -1,4 +1,4 @@
-package com.java.ks_monitor.controller.view;
+package com.java.ks_monitor.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
