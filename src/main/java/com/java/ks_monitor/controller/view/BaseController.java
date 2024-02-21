@@ -1,4 +1,4 @@
-package com.java.ks_monitor.controller;
+package com.java.ks_monitor.controller.view;
 
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.stereotype.Controller;
