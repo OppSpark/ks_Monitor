@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class EvnetController {
 
     @GetMapping("/")
-    public String evnets(){
-        return "evnet/index";
+    public String events(){
+        return "event/index";
     }
 
     @GetMapping("/{eventId}")
     public String eventDetail(@PathVariable Integer eventId){
-        return "evnet/detail";
+        return "event/detail";
     }
 }

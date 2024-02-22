@@ -26,7 +26,7 @@ public class AdminController {
     }
 
     @GetMapping("/events/{eventId}")
-    public String adminEvnetDetail(@PathVariable Integer eventId){
-        return"admin/evnet-detail";
+    public String adminEventDetail(@PathVariable Integer eventId){
+        return"admin/event-detail";
     }
 }
